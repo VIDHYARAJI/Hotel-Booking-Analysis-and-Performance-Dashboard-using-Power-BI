@@ -58,13 +58,13 @@ The dataset includes:
    - Use **Power Query** to adjust data transformations if needed.  
    - Modify DAX formulas for metrics like RevPAR:  
      ```DAX  
-     RevPAR = DIVIDE([Total Revenue], [Available Rooms])  
-     ```  
-4. **Interact with the Dashboard**:  
-   - Use filters for **City**, **Room Type**, and **Time Period**.  
-   - Drill into visuals to explore property-level performance.  
-
-
+     RevPAR = DIVIDE([Total Revenue], [Available Rooms])
+     ADR = DIVIDE([Revenue], [Total bookings],0)
+     DBRN = DIVIDE([Total bookings],[No of days])
+     DSRN = DIVIDE([Total capacity], [No of days])
+     DURN = DIVIDE([Total checked out], [No of days])
+     ```
+     
 ## 📸 **Dashboard Preview**  
 [Power BI Dashboard](Power%20BI%20Dashboard.png)  
 (Replace with your actual screenshot or describe visuals: revenue by category, trend charts, and metric cards.) 
