@@ -66,12 +66,9 @@ The dataset includes:
 
 
 ## 📸 **Dashboard Preview**  
-![Power BI Dashboard](Power%20BI%20Dashboard.png)  
+[Power BI Dashboard](Power%20BI%20Dashboard.png)  
 (Replace with your actual screenshot or describe visuals: revenue by category, trend charts, and metric cards.) 
 
 
 ## 📄 **License**  
-This project is open-source under the [MIT License](LICENSE).  
-
-
-**🌟 Pro Tip**: Add a **"Trend by Key Metrics"** page to visualize monthly performance fluctuations and forecast future occupancy rates!  
+This project is open-source under the [MIT License](LICENSE).
